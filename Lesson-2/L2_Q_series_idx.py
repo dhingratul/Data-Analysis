@@ -39,6 +39,6 @@ def max_employment(employment):
     Try using the Pandas argmax() function.
     '''
     max_country = employment.argmax()      # Replace this with your code
-    max_value = employment[max_country]   # Replace this with your code
+    max_value = employment.loc[max_country]   # Replace this with your code
 
     return (max_country, max_value)
