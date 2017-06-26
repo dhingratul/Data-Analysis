@@ -50,3 +50,6 @@ def standardize(df):
     number of standard deviations it is above or below the mean.
     '''
     return df.apply(standardize_col)
+
+# Main
+print(standardize(grades_df))
